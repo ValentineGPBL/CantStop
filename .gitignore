@@ -1,0 +1,18 @@
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_*
+
+# Build outputs
+**/target/
+**/build/
+**/.gradle/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.env
+Cant_stop/target/
+qtables_hyperparams

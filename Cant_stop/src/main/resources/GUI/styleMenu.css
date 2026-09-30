@@ -1,0 +1,147 @@
+#pane{
+
+    -fx-background-color: black;
+
+    -fx-background-image: url("backMenu2.jpeg"), url("menu.png");
+
+    -fx-background-repeat: no-repeat, no-repeat;
+    -fx-background-size: cover, contain;
+    -fx-background-position: center center, center center;
+    -fx-content-display: flex;
+    -fx-alignment: center;
+
+}
+#mode,#options {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+
+
+}
+#mode{
+   -fx-alignment: center-left;
+
+}
+#options{
+    -fx-alignment: center-right;
+
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #330000);
+    -fx-text-fill: #ff4d4d;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-color: #660000;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #330000, #660000);
+    -fx-text-fill: white;
+
+}
+
+.slider {
+     -fx-background-color: linear-gradient(to bottom, #000000, #330000);
+     -fx-background-radius: 8;
+     -fx-background-width: 12;
+     -fx-border-color: #660000;
+     -fx-border-radius: 8;
+     -fx-border-width: 2;
+
+ }
+
+.slider .track {
+    -fx-background-color: #330000;
+    -fx-border-color: #660000;
+    -fx-border-radius: 4;
+}
+
+.slider .thumb {
+    -fx-background-color: #ff4d4d;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+}
+
+.HBox {
+    -fx-spacing: 10;
+
+}
+
+.game-text-area {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #330000);
+    -fx-text-fill: #ff4d4d;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-color: #660000;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 160px;
+}
+
+.game-text-area .content {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #330000);
+}
+
+/* AI Configuration Styles */
+
+.ai-player-row {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #330000);
+    -fx-background-radius: 8;
+    -fx-border-color: #660000;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+    -fx-pref-width: 300;
+    -fx-alignment: center;
+}
+
+.game-text {
+    -fx-text-fill: #ff4d4d;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #330000);
+    -fx-background-radius: 8;
+    -fx-border-color: #660000;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-pref-width: 270;
+}
+
+.combo-box .cell {
+    -fx-text-fill: #ff4d4d; 
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ff4d4d;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #660000;
+    -fx-border-width: 1;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-padding: 5 10 5 10;
+}
+
+.combo-box-popup .list-cell:filled:selected, .combo-box-popup .list-cell:filled:hover {
+    -fx-background-color: #330000;
+    -fx-text-fill: #ff4d4d;
+}
+
